@@ -1,3 +1,4 @@
+package com.mycompany.apt6;
 import java.util.Scanner;
 
 public class APT6 {
