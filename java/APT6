@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class APT6 {
+
+    public static void main(String[] args) {
+        System.out.println("Lets multiply some numbers.");
+        System.out.println( "Enter a number and I'll multiply it up to the same number.");
+  
+    Scanner input = new Scanner(System.in);
+    
+    int num = Integer.parseInt(input.nextLine());
+    
+    for ( int i =0; num >= i; i++){
+int numMulti = num * i;
+System.out.println(num + " * " + i + " = " + numMulti + ".");
+}
+    } 
+}
