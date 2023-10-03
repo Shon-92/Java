@@ -1,0 +1,29 @@
+package com.mycompany.apt7;
+
+import java.util.Scanner;
+
+public class APT7 {
+
+    public static void main(String[] args) {
+        System.out.println("Hello,  type in 3 numbers and i will tell you which is the lowest.");
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Please enter your 1st number.");
+        double num1 = Double.parseDouble(input.nextLine());
+        
+         System.out.println("Please enter your 2nd number.");
+        double num2 = Double.parseDouble(input.nextLine());
+        
+         System.out.println("Please enter your 3rd number.");
+        double num3 = Double.parseDouble(input.nextLine());
+        
+        if ( num1 < num2 && num1 < num3){
+        System.out.println(num1);
+        }
+        else if (num2 < num1 && num1< num3){
+        System.out.println(num2);
+        }
+        else {
+        System.out.println(num3);}
+    }
+}
